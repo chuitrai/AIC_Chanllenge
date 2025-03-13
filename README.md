@@ -1,7 +1,7 @@
 # AIC_Chanllenge
 A system for querying images using a sequence of characters or a similar image across thousands of videos.
 
-# Hệ thống truy vấn hình ảnh từ video 📽
+# Hệ thống truy vấn hình ảnh từ video 
 
 ##  Giới thiệu
 Đây là hệ thống truy vấn hình ảnh tương tự dựa trên một chuỗi ký tự hoặc một hình ảnh đầu vào. Hệ thống hỗ trợ tìm kiếm hình ảnh trong một tập lớn video bằng cách:
@@ -28,8 +28,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 2. Tải lên video hoặc sử dụng dữ liệu sẵn có.
-3. Nhập chuỗi văn bản hoặc tải lên một hình ảnh để tìm kiếm.
-4. Nhận kết quả là các hình ảnh tương tự từ video đã phân tích.
+   Nếu tải ảnh lên, bạn phải đảm bảo đã tạo ra file faiss_cosin.bin sẵn và chạy file create_json_path.py
+   ![image](https://github.com/user-attachments/assets/7a57f597-14b1-4181-8c7b-206b96a37e43)
+
+4. Nhập chuỗi văn bản hoặc tải lên một hình ảnh để tìm kiếm.
+5. Nhận kết quả là các hình ảnh tương tự từ video đã phân tích.
 ## Hiệu suất hệ thống
 ## 📊 Hiệu suất mô hình
 
