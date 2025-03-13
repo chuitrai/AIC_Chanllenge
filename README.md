@@ -30,6 +30,9 @@ streamlit run app.py
 2. Tải lên video hoặc sử dụng dữ liệu sẵn có.
    Nếu tải ảnh lên, bạn phải đảm bảo đã tạo ra file faiss_cosin.bin sẵn và chạy file create_json_path.py
    ![image](https://github.com/user-attachments/assets/7a57f597-14b1-4181-8c7b-206b96a37e43)
+   Đảm bảo bạn đã có file này trong thư mục database
+   ![image](https://github.com/user-attachments/assets/c59b4d02-6df7-4b07-970e-adb86f593cb5)
+
 
 4. Nhập chuỗi văn bản hoặc tải lên một hình ảnh để tìm kiếm.
 5. Nhận kết quả là các hình ảnh tương tự từ video đã phân tích.
